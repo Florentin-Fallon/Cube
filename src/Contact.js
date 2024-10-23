@@ -6,7 +6,7 @@ function Contact() {
     <div>
       <Navbar />
       <div>
-        <h1>Bienvenue sur Services</h1>
+        <h1 className='title'>Bienvenue sur contact</h1>
       </div>
     </div>
   )

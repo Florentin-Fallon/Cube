@@ -19,6 +19,11 @@ function NavbarComponent() {
             <Link to="/contact" className="nav-link">Contact</Link>
           </li>
         </ul>
+        <div>
+          <Link to="/" className="user-settings-link">
+            <img src="https://picsum.photos/seed/picsum/200/300" alt="Paramètres utilisateur" className="user-icon" />
+          </Link>
+        </div>
       </nav>
     </div>
   );

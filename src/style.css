@@ -4,14 +4,9 @@ body {
     font-family: Arial, sans-serif;
   }
   
-  /* Styles de la barre de navigation */
-
-  .containers {
-    background-color: #99D19C; /* Couleur de fond */
-  }
-  
+  /* Styles de la barre de navigation "NavbarComponent" */
   .navbar {
-    display: flex;
+    display: flex; /* Afficher les éléments en ligne */
     justify-content: center; /* Centrer les éléments horizontalement */
     align-items: center; /* Centrer verticalement les éléments */
     background-color: #99D19C; /* Couleur de fond */
@@ -38,4 +33,17 @@ body {
   .navbar ul li a:hover {
     text-decoration: underline; /* Soulignement au survol */
   }
-  
+
+  .user-icon {
+    width: 40px; /* Ajuste la taille selon tes besoins */
+    height: auto; /* Conserve les proportions */
+    border-radius: 25% 10%;
+  }
+  /* Titre des pages */
+
+  .title {
+    text-align: center; /* Centrer le texte */
+    font-size: 20px; /* Taille du texte */
+    font-weight: 200; /* Graisse du texte */
+    margin: 20px 0; /* Espacement extérieur */
+  }

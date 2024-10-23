@@ -6,7 +6,7 @@ function Propos() {
     <div>
       <Navbar />
       <div>
-        <h1>Bienvenue sur à propos</h1>
+        <h1 className='title'>Bienvenue sur à propos</h1>
       </div>
     </div>
   )
