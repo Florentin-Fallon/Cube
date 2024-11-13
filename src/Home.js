@@ -1,14 +1,13 @@
 import React from 'react'
-import Navbar from './components/Header/NavbarComponent'
+import Navbar from './components/Header/Navbar'
+import { Box, Typography } from '@mui/material'
 
 function Home() {
   return (
-    <div>
-        <Navbar />
-        <div>
-          <h1 className='title'>Bienvenue sur la page d'accueil</h1>
-        </div>
-    </div>
+    <Box>
+      <Navbar />
+      <Typography variant='h6'>Bienvenue sur la page d'accueil</Typography>
+    </Box>
   )
 }
 
