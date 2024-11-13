@@ -1,8 +1,14 @@
 import React from 'react'
+import Navbar from './components/Header/Navbar'
+import { Box } from '@mui/material'
+import FormContact from './components/Inputs/FormContact'
 
 function Contact() {
   return (
-    <div>Contact</div>
+    <Box>
+      <Navbar />
+      <FormContact />
+    </Box>
   )
 }
 

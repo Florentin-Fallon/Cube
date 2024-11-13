@@ -1,12 +1,13 @@
 import React from 'react'
 import Navbar from './components/Header/Navbar'
-import { Box, Typography } from '@mui/material'
+import { Box } from '@mui/material'
+import LandingPage from './components/Header/LandingPage'
 
 function Home() {
   return (
     <Box>
       <Navbar />
-      <Typography variant='h6'>Bienvenue sur la page d'accueil</Typography>
+      <LandingPage />
     </Box>
   )
 }

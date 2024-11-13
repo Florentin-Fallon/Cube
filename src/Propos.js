@@ -1,8 +1,12 @@
 import React from 'react'
+import Navbar from './components/Header/Navbar'
+import { Box } from '@mui/material'
 
 function Propos() {
   return (
-    <div>Propos</div>
+    <Box>
+      <Navbar />
+    </Box>
   )
 }
 
