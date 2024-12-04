@@ -100,7 +100,7 @@ function ResponsiveAppBar() {
           <Box sx={{ flexGrow: 0 }}>
             <Tooltip title="Paramètres">
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                <Avatar alt="Utilisateur" src="https://cdn.pixabay.com/photo/2016/03/31/20/31/avatar-1295831_1280.png" />
+                <Avatar alt="Utilisateur" src="https://img.icons8.com/clouds/100/minecraft-grass-cube.png" />
               </IconButton>
             </Tooltip>
             <Menu

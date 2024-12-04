@@ -18,7 +18,7 @@ function LandingPage() {
         justifyContent: 'center',
         alignItems: 'center',
         textAlign: 'center',
-        backgroundImage: 'url(https://cdn.discordapp.com/attachments/1020308925033230546/1306247013230313512/2024-10-23_14.34.32.png?ex=6735f8d4&is=6734a754&hm=06e9159a08bd1a2c0ac4ed03949fc35cc55f02dd79ab1e586331a1a307c3594d&)',
+        backgroundImage: 'url(https://cdn.discordapp.com/attachments/1020308925033230546/1306247013230313512/2024-10-23_14.34.32.png?ex=6750ff94&is=674fae14&hm=2b3959af0d86c40d9f3739f65c41a0900030bcbfcb0f1e8113e3c7db0c759dc8&)',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         color: 'white',
